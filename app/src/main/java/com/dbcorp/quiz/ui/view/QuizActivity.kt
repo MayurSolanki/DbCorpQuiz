@@ -115,8 +115,6 @@ class QuizActivity : AppCompatActivity() {
             override fun onFinish() {
                 obtainScore -= 5
                 moveViewPager()
-//                val quizAttemptEvent = QuestionAttemptEvent(true,false,false,false, false)
-//                GlobalBus().getBus()!!.post(quizAttemptEvent)
             }
         }
 

@@ -24,11 +24,8 @@ class MainViewModel : ViewModel() {
     }
 
      fun fetchQuiz(){
-             // Read from the database
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
 
                 val quizList = mutableListOf<QuestionModel>()
 
@@ -43,7 +40,6 @@ class MainViewModel : ViewModel() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                // Failed to read value
                 Log.w(MY_TAG, "Failed to read value.", error.toException())
             }
         })

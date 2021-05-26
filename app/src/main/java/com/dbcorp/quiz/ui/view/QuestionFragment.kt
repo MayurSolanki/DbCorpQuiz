@@ -43,8 +43,6 @@ class QuestionFragment : Fragment() {
     ): View? {
          fragQuestionBinding =  FragQuestionBinding.inflate(layoutInflater)
 
-
-        // Inflate the layout for this fragment
         val args = arguments
         if (args != null) {
             questionModel = args.getParcelable<QuestionModel>("questionModel")
@@ -103,19 +101,11 @@ class QuestionFragment : Fragment() {
 
 
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-
-    }
-
 
     fun checkSelectedOptionIsRightOrWrong(questionModel: QuestionModel?, text: String):Boolean{
-
         return text.equals(questionModel!!.answer,ignoreCase = false)
 
     }
-
-
 
 
 }
