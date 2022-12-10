@@ -50,7 +50,7 @@ class QuestionFragment : Fragment() {
         }
 
         fragQuestionBinding.apply {
-            tvQuestion.text = questionModel!!.question
+            tvQuestion.text = "Question:- "+questionModel!!.question
             rbOption1.text = questionModel!!.option1
             rbOption2.text = questionModel!!.option2
             rbOption3.text = questionModel!!.option3

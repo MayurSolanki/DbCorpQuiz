@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:text="This quiz contain 20 Quiz, For Each \n Skip -5 \n Wrong -10 \n Right +20 \n OnTimeExpire -5"
+        android:text="This quiz contain 5 Quiz, For Each \n Skip -5 \n Wrong -10 \n Right +20 \n OnTimeExpire -5 you will get"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="bottom|center"

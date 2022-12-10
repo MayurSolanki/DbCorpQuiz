@@ -108,7 +108,7 @@ class QuizActivity : AppCompatActivity() {
                     TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) % 60
                 )
 
-                tv.text = "Time Remain $timeInFormat"
+                tv.text =  "${quizBinding.viewPager.currentItem +1}/ ${questionary.size}      Time Remain $timeInFormat"
 
             }
 

@@ -26,12 +26,12 @@ class MainViewModel : ViewModel() {
      fun fetchQuiz(){
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
+                Log.d("log...", ""+dataSnapshot)
 
                 val quizList = mutableListOf<QuestionModel>()
 
                 for (postSnapshot in dataSnapshot.children) {
                     val post: QuestionModel? = postSnapshot.getValue(QuestionModel::class.java)
-                    Log.d(MY_TAG, "Value : " + post)
                     quizList.add(post!!)
                 }
 

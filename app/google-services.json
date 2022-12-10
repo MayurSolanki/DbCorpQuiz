@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "23093167774",
-    "firebase_url": "https://dbcorpquizapp-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "dbcorpquizapp",
-    "storage_bucket": "dbcorpquizapp.appspot.com"
+    "project_number": "29372400379",
+    "firebase_url": "https://dbcorpquiz-default-rtdb.firebaseio.com",
+    "project_id": "dbcorpquiz",
+    "storage_bucket": "dbcorpquiz.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:23093167774:android:0368dfdc9a95b8ad685d8f",
+        "mobilesdk_app_id": "1:29372400379:android:7a0e79d72d54d9ebc9265e",
         "android_client_info": {
           "package_name": "com.dbcorp.quiz"
         }
       },
       "oauth_client": [
         {
-          "client_id": "23093167774-7vv5t6rm6jhb5epfmmgiho6jalarfqm2.apps.googleusercontent.com",
+          "client_id": "29372400379-voomepat9n5f90ojj785uuv78p0ju1mk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAo3zu72mWUqd-eqSEVH9dpIQSWdhhkCvc"
+          "current_key": "AIzaSyChN15NmBEu2PnRJs2i7k4VtH6EPSf0X6s"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "23093167774-7vv5t6rm6jhb5epfmmgiho6jalarfqm2.apps.googleusercontent.com",
+              "client_id": "29372400379-voomepat9n5f90ojj785uuv78p0ju1mk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
